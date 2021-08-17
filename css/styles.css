@@ -1,0 +1,52 @@
+/*
+1. Posicionamiento
+2. Modelo de caja(box model)
+3. Tipografía
+4. Visuales
+5. Otros
+Agregando estilos:
+Posicionamiento --> static, absolute, relative, fixed
+Modelo de caja (Box model) --> margin, border, padding, content
+Tipografía --> tipos, tamaños de fuente, etc
+Estilos visuales --> box-shadow, border-radius, gradient, etc
+Otros --> reglas CSS y más
+*/
+/*
+    object-fit
+    https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+*/
+:root {
+    --background-green: #244D51;
+    --padding-body: 0 1.6rem;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Rubik', sans-serif;
+}
+body {
+    font-size: 2rem;
+    background: var(--background-green);
+}
+header{
+    padding: var(--padding-body);
+    width: 200px;
+    height: 200px;
+    text-align: left;
+}
+.header__background--image {
+    background-image: url("../assets/img/background-header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main {
+    padding: var(--padding-body);
+}
+footer {
+    padding:var(--padding-body);
+}
