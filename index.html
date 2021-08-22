@@ -4,71 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Juliana Herendia">
+    <meta name="author" content="Juliana Heredia">
     <meta name="description" content="Tienda de plantas pequeñas para el hogar y macetas con diseños creativos. Si es lo que buscas, ¡Artemisa Plant Shop es el lugar correcto!">
     <meta name="keywords" content="SHOP, PLANTS, TIENDA, PLANTAS, ARTEMISA, PLANT">
     <link rel="icon" type="image/svg" href="/assets/img/planta.svg">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik&display=swap" rel="stylesheet">
-    <title>Artemisa Plant Shop</title>
-    <style>
-        :root {
-            --primary-font: 'Rubik', sans-serif;
-            --second-font: 'Montserrat', sans-serif;
-        }
-        html {
-            font-family: var(--primary-font);
-        }
-        p {
-            font-family: var(--second-font);
-        }
-    </style>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/desktop.css">
+    <title>Artemisa Plant Shop</title>    
 </head>
 <body>
-    <header class="header__container">
-        <nav class="navbar__container">
-            <ul>
-                <li><a href="./index.html">Artemisa Plant Shop</a></li>
-                <li><a href="./pages/conoceme.html">Conóceme</a></li>
-            </ul>
-        </nav>
-        <h1 class="header__title">
-            Artemisa Plant Shop
-        </h1>
-        <p class="header__text--action"><span><</span>Scroll down for more</p>
-    </header>
-    <main>
-        <section>
-            <blockquote>
+    <div class="header__background--color">
+        <header id="header" class="item-a header__container">
+            <nav class="navbar__container">
+                <ul>
+                    <li><a href="./index.html"><span>A</span> Artemisa Plant Shop</a></li>
+                    <li><a href="./pages/conoceme.html">Conóceme</a></li>
+                </ul>
+            </nav>
+            <section class="header__background--image">
+                <section class="header__container--title">    
+                    <h1>
+                        Artemisa Plant Shop 
+                    </h1>
+                    <div class="container__text--action">
+                        <p class="header__text--action">
+                            <span class="icon"><img src="./assets/img/arrow.png" alt=""></span>
+                        </p>
+                        <p>Scroll down for more</p>
+                    </div>
+                </section>
+            </section>
+        </header>
+    </div>
+    <main class="item-b">
+        <div class="header__background--color">
+            <section>
+                <blockquote>
+                    <p>
+                        <span>
+                            "Green in started as a small community of..."
+                        </span>
+                        <p>by Founder</p>
+                        <p>Juliana</p>
+                    </p>
+                </blockquote>
+            </section>
+            <section>
+                <img src="" alt="">
+                <h2>Need help to chooseing the right plant</h2>
                 <p>
-                    <span>
-                        "Green in started as a small community of..."
-                    </span>
-                    <p>by Founder</p>
-                    <p>Juliana</p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, dolor.
                 </p>
-            </blockquote>
-        </section>
-        <section>
-            <img src="" alt="">
-            <h2>Need help to chooseing the right plant</h2>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum, dolor.
-            </p>
-            <div class="container__carousel">
-                <div class="container__carousel--garden">
-                    <h3>01</h3>
-                    <p>Garden</p>
-                </div>
-                <div class="container__carousel--office">
-                    <h3>02</h3>
-                    <p>Office</p>
-                </div>
-                <div class="container__carousel--home">
-                    <h3>03</h3>
-                    <p>Home</p>
-                </div>
+            </section>
+        </div>
+        <div class="container__carousel">
+            <div class="container__carousel--garden">
+                <h3>01</h3>
+                <p>Garden</p>
             </div>
-        </section>
+            <div class="container__carousel--office">
+                <h3>02</h3>
+                <p>Office</p>
+            </div>
+            <div class="container__carousel--home">
+                <h3>03</h3>
+                <p>Home</p>
+            </div>
+        </div>
         <section class="parent">
             <section class="div1">
                 <h2>Here goes a titel about...</h2>
@@ -119,7 +122,7 @@
             </div>
         </section>
     </main>
-    <footer class="parent">
+    <footer class="item-c parent">
         <div class="div1">
             <p>Conctact us</p>
             <ul>

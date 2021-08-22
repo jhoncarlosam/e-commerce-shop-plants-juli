@@ -1,3 +1,79 @@
-body {
-    padding: 0 10rem;
+@media (min-width: 1024px) {
+:root {
+    --padding-sides: 0 10rem;
+}
+.item-a {
+    grid-area: header;
+    padding: var(--padding-sides);
+    padding-top: .1rem;
+}
+.navbar__container ul{
+    display: flex;
+    padding: 2.2rem 3.9rem;
+}
+li {
+    list-style: none;
+    letter-spacing: .2rem;
+    margin: 2rem;
+}
+a {
+    padding: 2rem;
+    color: #FFF;
+}
+/*
+  TITLE
+*/
+.navbar__container span {
+  padding: 1rem 1.5rem;
+  background-color: #3a5e62;
+  border-radius: 3rem;
+}
+.header__container--title {
+  color: #FFFFFF;
+}
+.header__container--title h1{
+  font-size: 6rem;
+  padding: 38rem 0 0 7.6rem;
+  -webkit-text-stroke: .1rem black;
+}
+
+.header__text--action {
+  padding: 5rem 0 0 7.6rem;
+}
+.header__text--action .icon {
+  background-color: #FFFFFF;
+  border-radius: 3rem;
+  padding: .8rem .4rem 0 .4rem;
+}
+.header__text--action span {
+  background-color: #3a5e62;
+}
+.container__text--action {
+  display: inline-flex;
+}
+.container__text--action p {
+  align-self: flex-end;
+  padding-bottom: 3rem;
+  margin: 1rem;
+}
+.item-b {
+  grid-area: main;
+  padding: var(--padding-sides);
+}
+.item-c {
+  grid-area: footer;
+  padding: var(--padding-sides);
+}
+/*
+  GRID CONTAINER
+*/
+.container {
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem 5rem;
+  grid-template-rows: auto;
+  grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "footer footer footer footer";
+}
 }

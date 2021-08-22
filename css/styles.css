@@ -16,6 +16,8 @@ Otros --> reglas CSS y más
     https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
 */
 :root {
+    --primary-font: 'Rubik', sans-serif;
+    --second-font: 'Montserrat', sans-serif;
     --background-green: #244D51;
     --padding-body: 0 1.6rem;
 }
@@ -25,28 +27,36 @@ Otros --> reglas CSS y más
     padding: 0;
 }
 html {
+    font-family: var(--primary-font);
     font-size: 62.5%;
     font-family: 'Rubik', sans-serif;
 }
 body {
     font-size: 2rem;
-    background: var(--background-green);
+}
+a {
+    text-decoration: none;
 }
 header{
     padding: var(--padding-body);
-    width: 200px;
-    height: 200px;
-    text-align: left;
+}
+
+p {
+    font-family: var(--second-font);
+}
+.header__background--color {
+    background-color: var(--background-green);
 }
 .header__background--image {
     background-image: url("../assets/img/background-header.png");
-    background-size: cover;
-    background-position: center;
+    height: 100vh;
     background-repeat: no-repeat;
 }
 main {
     padding: var(--padding-body);
+    padding: 0;
 }
 footer {
     padding:var(--padding-body);
+    background-color: #e3e4e8;
 }
