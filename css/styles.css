@@ -47,11 +47,6 @@ header {
     text-align: center;
     background-color: var(--some-green);
 }
-/*
-.header__title--container {
-    visibility: hidden;
-}
-*/
 .navbar__container ul {
     font-size: 2rem;
   }
