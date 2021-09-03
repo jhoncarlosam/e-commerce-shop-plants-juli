@@ -1,6 +1,5 @@
-header img {
-  width: 250px;
-  margin-left: 200px;
+.header__title--container h1 {
+  font-size: 3rem;
 }
 .product--cards-container {
   display: flex;
