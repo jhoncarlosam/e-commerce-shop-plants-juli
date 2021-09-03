@@ -1,4 +1,4 @@
-# e-commerce-shop-plants-Artemisa
+# E-commerce Artemisa Plant Shop
 Tienda en línea de plantas by Juliana Heredia.
 
 ## Deploy
