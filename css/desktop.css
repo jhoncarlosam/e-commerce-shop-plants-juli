@@ -1,0 +1,93 @@
+.header__title--container {
+  width: 90%;
+  max-width: 1004px;
+  align-self: left;
+} 
+.background__img--title {
+  position: absolute;
+  width: 72%;
+  height: 494px;
+  margin: 0 auto;
+  background: url('../assets/img/background-header.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header__title--container h1 {
+  position: absolute;
+  font-size: 3rem;
+  font-size: 6rem;
+  padding: 20rem 20rem 0 0;
+  text-align: left;
+  line-height: 5rem;
+  -webkit-text-stroke: .1rem black;
+}
+.header__title--container p {
+  position: absolute;
+  margin-top: 36.5rem;
+  font-size: 3rem;
+  text-align: left;
+  margin-left: 0.5rem;
+  -webkit-text-stroke: .1rem black;
+}
+.header__title--container .header__button {
+  left: calc(21% - 109px);
+  top: 473px;
+}
+.main__exchange--container .background__img {
+  visibility: hidden;
+}
+.main__exchange--container-title {
+  min-width: 1004px;
+}
+.main__exchange--container h2 {
+  margin-bottom: 30px;
+  padding: 120px 80px 0;
+  font-size: 3rem;
+  font-weight: normal;
+  line-height: 4.6rem;
+}
+.main__exchange--container p {
+  padding-left: 80px;
+}
+.main__exchange--container .currency--table-container--text-color p {
+    padding: 0 0 90px 80px;
+}
+
+.product--cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 930px;
+  margin: 0 auto;  
+}
+.navbar__container ul {
+  font-size: 2rem;
+}
+.navbar__container ul li {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 17rem;
+  padding-top: 2.5rem;
+  list-style: none;
+  letter-spacing: .2rem;
+  margin: 2rem;
+}
+.navbar__container a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.navbar__container span {
+  padding: 1rem 1.5rem;
+  background-color: #3a5e62;
+  border-radius: 3rem;
+}
+.bitcoin__img--container {
+  width: 100%;
+  min-width: 320px;
+  height: 50vh;
+  background-image: url('../assets/img/plant-4-desk.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
