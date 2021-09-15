@@ -91,3 +91,13 @@
   background-repeat: no-repeat;
   text-align: center;
 }
+.main__exchange--container .background__img-second {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  background: url('../assets/img/plant-7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
