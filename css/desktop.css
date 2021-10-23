@@ -1,3 +1,6 @@
+header {
+  height: auto;
+}
 .header__title--container {
   width: 90%;
   max-width: 1004px;
@@ -32,7 +35,7 @@
 }
 .header__title--container .header__button {
   left: calc(21% - 109px);
-  top: 473px;
+  top: 500px;
 }
 .main__exchange--container .background__img {
   visibility: hidden;
