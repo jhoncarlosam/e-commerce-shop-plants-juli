@@ -326,6 +326,9 @@ footer {
   height: 150px;
   background-color: var(--footer);
 }
+footer a:hover {
+  color: var(--bitcoin-orange)
+}
 footer section {
   display: flex;
   width: 50%;
