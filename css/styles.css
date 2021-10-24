@@ -63,7 +63,7 @@ nav.scrollmenu a {
 }
 nav.scrollmenu a:hover {
   border-radius: .5rem;
-  background-color: #777777;
+  background-color: var(--off-green);
 }
 .header__title--container {
   width: 90%;
@@ -340,6 +340,9 @@ footer .left ul {
   font-weight: 500;
   line-height: 1.8rem;
   list-style: none;
+}
+.left {
+  margin: 0 2rem;
 }
 .left li {
   margin: 10px 0;
