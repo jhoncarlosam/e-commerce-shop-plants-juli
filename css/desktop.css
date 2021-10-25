@@ -23,15 +23,13 @@ header {
   padding: 20rem 20rem 0 0;
   text-align: left;
   line-height: 5rem;
-  -webkit-text-stroke: .1rem black;
 }
 .header__title--container p {
   position: absolute;
-  margin-top: 36.5rem;
+  margin-top: 27.5rem;
   font-size: 3rem;
   text-align: left;
   margin-left: 0.5rem;
-  -webkit-text-stroke: .1rem black;
 }
 .header__title--container .header__button {
   left: calc(21% - 109px);

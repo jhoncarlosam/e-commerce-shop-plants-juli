@@ -44,7 +44,15 @@ header {
   min-width: 320px;
   position: relative;
   text-align: center;
+  height: auto;
   width: 100%;
+}
+.background__header {
+  height: 111rem;
+  background-image: url("../assets/img/banner-header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 nav {
     font-size: 2rem;
@@ -59,6 +67,7 @@ nav.scrollmenu a {
   padding: 14px;
   text-align: center;
   text-decoration: none;
+  text-shadow: 1px 1px 2px black;
 }
 nav.scrollmenu a:hover {
   border-radius: .5rem;
@@ -74,19 +83,22 @@ nav.scrollmenu a:hover {
   align-self: center;
 }
 .header__title--container h1 {
+  color: var(--just-white);
   font-size: 2.4rem;
   font-weight: bold;
   line-height: 2.6rem;
-  color: var(--just-white);
+  text-shadow: 1px 1px 2px black;
 }
 .header__title--container p {
-  margin-top: 25px;
+  color: var(--soft-orange);
   font-size: 1.4rem;
   font-weight: bold;
   line-height: 1.8rem;
-  color: var(--soft-orange);
+  margin-top: 25px;
+  text-shadow: 1px 1px 2px black;
 }
 .header__title--container .header__button {
+  color: var(--just-white);
   position: absolute;
   left: calc(50% - 118px);
   top: 246px;
@@ -103,7 +115,7 @@ nav.scrollmenu a:hover {
   font-size: 1.4rem;
   font-weight: bold;
   text-decoration: none;
-  color: var(--just-white);
+  text-shadow: 1px 1px 2px black;
 }
 .header__button span {
   display: inline-block;
