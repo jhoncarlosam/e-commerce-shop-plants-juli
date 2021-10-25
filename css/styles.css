@@ -40,7 +40,6 @@ header {
   background-color: var(--some-green);
   display: flex;
   flex-direction: column;
-  height: 334px;
   padding-top: 1rem;
   min-width: 320px;
   position: relative;

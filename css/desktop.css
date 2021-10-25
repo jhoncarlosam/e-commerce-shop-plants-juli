@@ -11,7 +11,7 @@ header {
   width: 72%;
   height: 494px;
   margin: 0 auto;
-  background: url('../assets/img/background-header.png');
+  background: url('../assets/img/banner.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -99,7 +99,7 @@ header {
   height: 500px;
   margin: 0 auto;
   margin-bottom: 50px;
-  background: url('../assets/img/plant-7.jpg');
+  background: url('../assets/img/plant-7-1.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
