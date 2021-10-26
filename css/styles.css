@@ -167,11 +167,11 @@ main {
   background-color: var(--some-green);
 }
 .main__exchange--container-title {
-  width: 90%;
+  background-color: #1c4044;
   min-width: 288px;
   max-width: 900px;
   margin: 0 auto;
-  background-color: #1c4044;
+  width: 90%;
 }
 .main__exchange--container-title-dos {
   width: 90%;
@@ -209,7 +209,7 @@ main {
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
-  text-align: left;
+  text-align: justify;
 }
 .main__exchange--container p {
   margin-bottom: 10px;
