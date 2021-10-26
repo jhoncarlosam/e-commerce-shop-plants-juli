@@ -116,6 +116,7 @@ nav.scrollmenu a:hover {
   font-weight: bold;
   text-decoration: none;
   text-shadow: 1px 1px 2px black;
+  z-index: 1;
 }
 .header__button span {
   display: inline-block;
@@ -139,6 +140,33 @@ main {
   width: 100%;
   height: auto;
   background-color: var(--off-white);
+}
+/*ARTICLES*/
+.article__section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  line-height: 3rem;
+  padding: 5rem 22rem;
+  text-align: left;
+  background-color: var(--off-white);
+}
+.article__section-inverted {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: left;
+  line-height: 3rem;
+  padding: 5rem 25rem;
+  text-align: left;
+  background-color: var(--off-white);
+}
+.article__section p {
+  font-size: 2rem;
+}
+.article__section-inverted p {
+  font-size: 2rem;
 }
 .product--cards-container-main {
   display: flex;
@@ -223,6 +251,9 @@ main {
   padding: 0 0 40px 20px;
   font-size: 1.8rem;
   color: var(--bitcoin-orange);
+}
+.product--cards-container a {
+  text-decoration: none;
 }
 .main__product--detail {
   position: relative;

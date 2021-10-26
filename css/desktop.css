@@ -34,6 +34,8 @@ header {
   font-size: 3rem;
   text-align: left;
   margin-left: 0.5rem;
+  line-height: 3rem;
+  margin-right: 1rem;
 }
 .header__title--container .header__button {
   left: calc(21% - 109px);
@@ -61,6 +63,7 @@ header {
 
 .product--cards-container {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
   width: 930px;
   margin: 0 auto;  
