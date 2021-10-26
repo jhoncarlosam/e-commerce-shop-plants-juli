@@ -1,6 +1,10 @@
 header {
   height: auto;
 }
+.background__header {
+  height: 65rem;
+  background-image: url("../assets/img/banner-header.jpg");
+}
 .header__title--container {
   width: 90%;
   max-width: 1004px;

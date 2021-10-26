@@ -48,8 +48,8 @@ header {
   width: 100%;
 }
 .background__header {
-  height: 111rem;
-  background-image: url("../assets/img/banner-header.jpg");
+  height: 28rem;
+  background-image: url("../assets/img/banner-header-small.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -123,6 +123,17 @@ nav.scrollmenu a:hover {
   height: 8px;
   margin-right: 10px;
   background-image: url("../assets/icons/down-arrow.svg");
+}
+.credits {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  height: 45vh;
+  margin-right: 1rem;
+  color: var(--just-white);
+}
+.credits a {
+  text-decoration: none;
 }
 main {
   width: 100%;
