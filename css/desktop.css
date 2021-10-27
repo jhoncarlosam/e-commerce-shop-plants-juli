@@ -41,6 +41,20 @@ header {
   left: calc(21% - 109px);
   top: 500px;
 }
+/*MAIN*/
+.main__carousel--container {
+  display: flex;
+  justify-content: center;
+}
+.carousel__container img {
+  border-radius: 1rem;
+  box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.99);
+  margin: 1rem;
+  width: 31%;
+}
+section.scrollmenu {
+  width: 95%;
+}
 .main__exchange--container .background__img {
   visibility: hidden;
 }

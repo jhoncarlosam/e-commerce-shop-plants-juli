@@ -136,10 +136,31 @@ nav.scrollmenu a:hover {
 .credits a {
   text-decoration: none;
 }
+/*MAIN*/
 main {
   width: 100%;
   height: auto;
   background-color: var(--off-white);
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+}
+.main__carousel--container {
+  background-color: var(--some-green);
+  height: auto;
+  padding: 40px 10px;
+  width: 100%;
+}
+section.scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+.carousel__container img {
+  border-radius: 1rem;
+  box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.99);
+  margin: 1rem;
+  width: 80%;
 }
 /*ARTICLES*/
 .article__section {
@@ -172,20 +193,6 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  
-}
-.main__product--detail-main {
-  background-color: var(--some-green);
-  height: auto;
-  min-width: 320px;
-  padding: 40px 10px;
-  position: relative;
-  width: 100%;
-}
-.product--cards-container-main img{
-  width: 30%;
-  border-radius: 1rem;
-  box-shadow: 10px 10px 12px -8px rgba(0,0,0,0.99);
 }
 .main__exchange--container {
   width: 100%;
