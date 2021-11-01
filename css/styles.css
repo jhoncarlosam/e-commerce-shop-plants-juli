@@ -165,29 +165,29 @@ section.scrollmenu {
 /*ARTICLES*/
 .article__section {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   text-align: left;
   line-height: 3rem;
-  padding: 5rem 22rem;
+  padding: 1rem;
   text-align: left;
   background-color: var(--off-white);
 }
 .article__section-inverted {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: column;
   align-items: center;
   text-align: left;
   line-height: 3rem;
-  padding: 5rem 25rem;
+  padding: 1rem;
   text-align: left;
-  background-color: var(--off-white);
+  background-color: var(--off-white);  
 }
 .article__section p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .article__section-inverted p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .product--cards-container-main {
   display: flex;

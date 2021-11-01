@@ -55,6 +55,32 @@ header {
 section.scrollmenu {
   width: 95%;
 }
+.article__section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: left;
+  line-height: 3rem;
+  padding: 5rem 22rem;
+  text-align: left;
+  background-color: var(--off-white);
+}
+.article__section-inverted {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  text-align: left;
+  line-height: 3rem;
+  padding: 5rem 25rem;
+  text-align: left;
+  background-color: var(--off-white);
+}
+.article__section p {
+  font-size: 2rem;
+}
+.article__section-inverted p {
+  font-size: 2rem;
+}
 .main__exchange--container .background__img {
   visibility: hidden;
 }
