@@ -184,9 +184,12 @@ section.scrollmenu {
   background-color: var(--off-white);  
 }
 .article__section p {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .article__section-inverted p {
+  font-size: 2rem;
+}
+p.article__section--text {
   font-size: 1.5rem;
 }
 .product--cards-container-main {
@@ -240,7 +243,7 @@ section.scrollmenu {
 .main__exchange--container h2 {
   margin-bottom: 30px;
   padding: 40px 20px 0;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
@@ -283,7 +286,7 @@ section.scrollmenu {
 .product--card-title {
   margin-top: 100px;
   margin-left: 20px;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 1.8rem;
   color: var(--shadow-yellow);
@@ -291,7 +294,7 @@ section.scrollmenu {
 .product--card-body {
   margin-top: 30px;
   margin-left: 20px;
-  font-size: 2.4rem;
+  font-size: 2rem;
   font-weight: 500;
   line-height: 1.8rem;
   color: var(--black);
@@ -333,7 +336,7 @@ section.scrollmenu {
 .plans--title h2 {
   padding-left: 20px;
   padding-top: 50px;
-  font-size: 2.2rem;
+  font-size: 2rem;
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--black);
