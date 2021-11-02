@@ -183,6 +183,9 @@ section.scrollmenu {
   text-align: left;
   background-color: var(--off-white);  
 }
+.article__section {
+  min-height: 400px;
+}
 .article__section p {
   font-size: 2rem;
 }
