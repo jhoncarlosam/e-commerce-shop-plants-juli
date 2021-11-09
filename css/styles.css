@@ -54,6 +54,35 @@ header {
   background-position: center;
   background-repeat: no-repeat;
 }
+.background__header--about {
+  height: 28rem;
+  background-image: url("../assets/img/about-small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background__header--contact {
+  height: 28rem;
+  background-image: url("../assets/img/contact-small.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.img__contacto {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+.icon__contact {
+  background-image: url('../assets/img/instagram-logo.png');
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 nav {
     font-size: 2rem;
 }
@@ -170,8 +199,17 @@ section.scrollmenu {
   text-align: left;
   line-height: 3rem;
   padding: 1rem;
-  text-align: left;
   background-color: var(--off-white);
+}
+.article__section--ig {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem 0;
+  background-color: var(--off-white);
+}
+.article__section--ig a:hover {
+  transform: scale(2);
 }
 .article__section-inverted {
   display: flex;
@@ -180,7 +218,6 @@ section.scrollmenu {
   text-align: left;
   line-height: 3rem;
   padding: 1rem;
-  text-align: left;
   background-color: var(--off-white);  
 }
 .article__section {

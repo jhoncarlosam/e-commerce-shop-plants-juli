@@ -2,7 +2,7 @@ header {
   height: auto;
 }
 .background__header {
-  height: 65rem;
+  height: 58rem;
   background-image: url("../assets/img/banner-header.jpg");
 }
 .header__title--container {
@@ -18,6 +18,20 @@ header {
   background: url('../assets/img/banner.jpg');
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
+}
+.background__header--about {
+  height: 58rem;
+  background-image: url("../assets/img/about.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.background__header--contact {
+  height: 58rem;
+  background-image: url("../assets/img/contact.jpg");
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .header__title--container h1 {
