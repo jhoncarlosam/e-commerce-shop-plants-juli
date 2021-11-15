@@ -73,6 +73,18 @@ header {
   justify-content: center;
   padding: 10rem 0;
 }
+.img__contacto img {
+  border-radius: .5rem;
+  width: 95%;
+}
+.container__img--juli {
+  display: flex;
+  justify-content: center;
+}
+.container__img--juli img {
+  width: 100%;
+  border-radius: .5rem;
+}
 .icon__contact {
   background-image: url('../assets/img/instagram-logo.png');
   display: inline-block;

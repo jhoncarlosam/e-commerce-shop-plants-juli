@@ -69,6 +69,14 @@ header {
 section.scrollmenu {
   width: 95%;
 }
+.img__contacto img {
+  border-radius: .5rem;
+  width: auto;
+}
+.container__img--juli img {
+  width: 20%;
+  margin-top: 1rem;
+}
 .article__section {
   display: flex;
   flex-direction: row;
